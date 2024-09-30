@@ -1,6 +1,6 @@
 <template>
   <BlogHeader />
-  <div class="px-14">
+  <div class="md:px-14 px-7">
     <RouterView />
   </div>
   <BlogFooter />

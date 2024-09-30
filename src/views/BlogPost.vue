@@ -1,8 +1,8 @@
 <template>
   <div v-if="post" class="blog__post">
-    <div class="flex justify-evenly py-20">
+    <div class="flex flex-col md:flex-row items-center justify-evenly py-20">
       <img :src="getImageUrl(post.img)" alt="Post Image" width="300" />
-      <div class="px-8 py-2 flex flex-col justify-between">
+      <div class="md:px-8 py-2 flex flex-col justify-between">
         <div>
           <h2 class="mt-4 text-xl">{{ post.title }}</h2>
           <p class="font-light mt-2">{{ post.hook }}</p>

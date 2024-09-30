@@ -7,6 +7,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('../views/BlogMain.vue')
+    }, 
+    {
+      path:'/:catchAll(.*)',
+      name:'NotFound',
+      component: () => import('../views/BlogMain.vue')
     },
     {
       path: '/post/:id',
