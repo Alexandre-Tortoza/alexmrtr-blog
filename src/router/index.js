@@ -7,16 +7,21 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: () => import('../views/BlogMain.vue')
-    }, 
+    },
     {
-      path:'/:catchAll(.*)',
-      name:'NotFound',
-      component: () => import('../views/BlogMain.vue')
+      path: '/sobre',
+      name: 'Sobre',
+      component: () => import('../views/BlogAbout.vue')
     },
     {
       path: '/post/:id',
-      name: 'home',
+      name: 'Post',
       component: () => import('../views/BlogPost.vue')
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: 'NotFound',
+      component: () => import('../views/BlogMain.vue')
     }
   ]
 })

@@ -1,27 +1,38 @@
-<!-- Frank Alcantara Consultoria, treinamento, ensino e desenvolvimento. Um pouco sobre mim A Pessoa Pai
-orgulhoso de um jovem de 21 anos (Matheus) que desenvolveu sua própria linguagem de programação
-Amulet e hoje pesquisa Teoria das Categorias e a linguagem Agda. Além do Matheus tenho dois filhos
-do coração, um no México (Joss) e outro na França (Theodore) e dois gatos (Thor e Kitty). Esposo
-amoroso, até hoje não sei o que ela viu em mim. Uma mocinha linda que me encantou aos 17 anos,
-cresceu, é a mãe dos meus filhos e uma profissional fantástica atuando como contadora,
-administradora de empresas e professora universitária. O Profissional Primeiro como Técnico em
-Eletrônica, depois Engenheiro Eletricista com Ênfase em Eletrônica, formado pela Universidade Gama
-Filho do Rio de Janeiro, tive a oportunidade de trabalhar em grandes empresas, nacionais e
-internacionais nos setores de televisão broadcasting e jornalismo, engenharia, operações financeiras
-(bancos), e educação. Desenvolvendo dezenas de projetos de software e hardware todos com tecnologia
-de ponta. Sempre, com tecnologia de ponta Desde motherboards nacionais até sistemas de gestão
-financeira, ERP e pedágio. Como gestor tive a sorte de dirigir e gerenciar projetos nacionais,
-internacionais e multinacionais, gerindo projetos com equipes de desenvolvimento espalhadas por
-países, culturas e valores diferentes. A última experiência nesta área foram os dois anos dirigindo
-a Tefway Mestre em Ciência Gestão e Tecnologia da Informação pela Universidade Federal do Paraná o
-que me deu a oportunidade de pesquisar, e desenvolver, soluções de mineração de dados, redes
-complexas e inteligência artificial. O mestrado também abriu as portas da carreira de professor
-universitário. Hoje na Pontifícia Universidade Católica do Paraná. Antes no Centro Universitário
-Uninter e na Universidade Positivo. Sempre lecionando matérias técnicas como Eletromagnetismo,
-Sinais e Sistemas, Processamento de Sinais, Estruturas de Dados Avançadas, Linguagens de
-Programação, Compiladores, Interpretadores, Gestão de projetos ágeis e análise de sistemas. Hoje e
-Amanhã Sou consultor na área de desenvolvimento, e treinamento, em sistemas de alto desempenho
-principalmente com C e C++. geralmente depois que o negócio cresceu e o custo da infraestrutura
-começa a pesar. Sou um especialista em analisar problemas de tecnologia. Meu trabalho é descobrir
-desafios, criar novos produtos e corrigir falhas de posicionamento de mercado. Geralmente, Vejo o
-que outros não veem em soluções de tecnologia aplicadas ao mercado. -->
+<template>
+  <div class="md:py-17 py-7">
+    <h2 class="font-bold text-2xl">Alexandre Marques</h2>
+    <p>Desenvolvedor Front-End</p>
+    <small>Vue | React | JavaScript | PHP</small>
+  </div>
+  <div class="box py-7">
+    <h3 class="font-bold text-xl">Quem sou eu?</h3>
+    <p class="font-normal mt-4">
+      Sou um desenvolvedor Front-End apaixonado por café e jogos. Minha jornada na programação
+      começou em 2021, quando criei minhas primeiras landing pages e pequenos sites. A partir daí, a
+      programação deixou de ser apenas um hobby e se tornou minha profissão. Em 2022, iniciei o
+      curso de Ciência da Computação, sempre buscando aprimorar minhas habilidades e adquirir novos
+      conhecimentos.
+    </p>
+  </div>
+  <div class="box py-7">
+    <h3 class="font-bold text-xl">Minha Experiência Profissional</h3>
+    <p class="font-normal mt-4">
+      No início de 2024, comecei meu primeiro estágio como desenvolvedor full-stack, onde trabalhei
+      com React, WordPress, PHP e MySQL. Também criei landing pages em HTML, CSS e JavaScript puro,
+      que mais tarde foram convertidas para WordPress. Além disso, participei da estruturação de um
+      webapp educacional desenvolvido em React, onde atuei principalmente na parte de cadastro de
+      atividades para os alunos.
+      <br /><br />
+      Atualmente, trabalho como desenvolvedor Vue em uma empresa de contabilidade, onde sou
+      responsável pelo desenvolvimento completo do front-end, desde a codificação até a concepção do
+      design. Recentemente, desenvolvi dois sistemas principais: um sistema de ponto interno, onde
+      os funcionários podem registrar suas horas trabalhadas, e um sistema de contabilidade online.
+    </p>
+  </div>
+</template>
+
+<style scoped>
+.box {
+  border-top: 1px solid rgba(13, 13, 13, 0.25);
+}
+</style>
