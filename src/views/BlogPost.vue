@@ -7,7 +7,7 @@
           <h2 class="mt-4 text-xl">{{ post.title }}</h2>
           <p class="font-light mt-2">{{ post.hook }}</p>
         </div>
-        <p class="font-thin text-sm">
+        <p class="font-thin text-sm mt-4">
           <small>Por</small> {{ post.author }} <small>em</small> {{ post.date }}
         </p>
       </div>

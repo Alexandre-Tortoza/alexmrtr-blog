@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center py-4 px-14 footer__box mt-4">
+  <div class="flex justify-between items-center  py-4 px-14 footer__box mt-7 md:mt-14">
     <span class="font-thin text-sm">Copyright © 2024 Alexandre Marques </span>
     <span class="font-thin text-xs flex items-center space-x-1">
       Feito com Vue
